@@ -1,0 +1,6 @@
+@startuml
+abstract class Person
+class Student, Course, Instructor, Enrollment, FileManager, CourseSystem
+Person <|-- Student
+Person <|-- Instructor
+@enduml

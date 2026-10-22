@@ -1,0 +1,13 @@
+digraph G {
+    rankdir=LR; graph [bgcolor="white", pad="0.3"]; node [fontname="Times New Roman", fontsize=10]; edge [fontname="Times New Roman", fontsize=9, color="#455A64"];
+    User [shape=box, style="rounded,filled", fillcolor="#E3F2FD", label="Administrator / User"];
+    Add [shape=ellipse, style=filled, fillcolor="#F4F7FB", label="Add records"];
+    Display [shape=ellipse, style=filled, fillcolor="#F4F7FB", label="Display records"];
+    Search [shape=ellipse, style=filled, fillcolor="#F4F7FB", label="Search records"];
+    Update [shape=ellipse, style=filled, fillcolor="#F4F7FB", label="Update records"];
+    Delete [shape=ellipse, style=filled, fillcolor="#F4F7FB", label="Delete records"];
+    Transaction [shape=ellipse, style=filled, fillcolor="#FFF3E0", label="Enroll student"];
+    Report [shape=ellipse, style=filled, fillcolor="#F4F7FB", label="View report"];
+    Save [shape=ellipse, style=filled, fillcolor="#F4F7FB", label="Save / load data"];
+    User -> Add; User -> Display; User -> Search; User -> Update; User -> Delete; User -> Transaction; User -> Report; User -> Save;
+    }

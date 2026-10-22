@@ -1,0 +1,10 @@
+@startuml
+left to right direction
+actor User
+rectangle "Online Course Management" { usecase "Add records" as A; usecase "Search records" as S; usecase "Update records" as U; usecase "Delete records" as D; usecase "View report" as R }
+User --> A
+User --> S
+User --> U
+User --> D
+User --> R
+@enduml

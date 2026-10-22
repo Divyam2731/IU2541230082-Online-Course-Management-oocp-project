@@ -1,0 +1,13 @@
+
+    digraph G { rankdir=LR; graph [bgcolor="white", pad="0.3", nodesep="0.45", ranksep="0.7"]; node [shape=record, style="rounded,filled", fillcolor="#F4F7FB", color="#455A64", fontname="Times New Roman", fontsize=10]; edge [color="#455A64", fontname="Times New Roman", fontsize=9];
+    Person [label="{Person|# id : int\l# name : string\l|+ getId()\l+ getName()\l+ display() : virtual\l}", fillcolor="#E3F2FD"];
+    
+        Student [label="{Student|email : string\l|display()\lsetDetails()\l}"];
+        Instructor [label="{Instructor|specialization : string\l|display()\l}"];
+        Course [label="{Course|id : int\ltitle : string\lfee : double\l|display()\lsetDetails()\l}"];
+        Enrollment [label="{Enrollment|id, studentId, courseId : int\lprogress : int\l|display()\lsetProgress()\l}"];
+        System [label="{CourseSystem|dynamic arrays\lrecord counts\l|add / search / update\ldelete / enroll / report\l}"];
+        FileManager [label="{FileManager||save and load records\l}", fillcolor="#FFF3E0"];
+        Person -> Student [arrowhead=empty]; Person -> Instructor [arrowhead=empty]; System -> Student [dir=both, arrowtail=odiamond]; System -> Course [dir=both, arrowtail=odiamond]; System -> Enrollment [dir=both, arrowtail=odiamond]; System -> FileManager [dir=both, arrowtail=vee];
+        }
+        

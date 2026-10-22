@@ -1,0 +1,14 @@
+@startuml
+actor User
+participant Menu
+participant CourseSystem as System
+participant Record
+participant FileManager
+participant File
+User -> Menu: Choose search / update record
+Menu -> System: call operation
+System -> Record: validate / update
+System -> FileManager: save records
+FileManager -> File: write text data
+System --> User: show result
+@enduml

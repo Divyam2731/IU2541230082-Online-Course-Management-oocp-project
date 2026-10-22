@@ -1,0 +1,6 @@
+Project.exe
+Tests/project_test
+*.o
+
+build/
+*.exe

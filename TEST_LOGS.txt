@@ -1,0 +1,65 @@
+Online Course Management — TEST LOG
+===================================
+
+Status: PENDING VERIFICATION. These are planned checks, not claims of passed tests.
+Record the operating system, compiler version, actual output, and status after executing each test.
+
+TEST 01: Compile all source files
+Actual result: Not run yet
+Status: PENDING
+
+TEST 02: Add a valid record
+Actual result: Not run yet
+Status: PENDING
+
+TEST 03: Display stored records
+Actual result: Not run yet
+Status: PENDING
+
+TEST 04: Search for an existing record
+Actual result: Not run yet
+Status: PENDING
+
+TEST 05: Search for a missing record
+Actual result: Not run yet
+Status: PENDING
+
+TEST 06: Update an existing record
+Actual result: Not run yet
+Status: PENDING
+
+TEST 07: Reject a negative amount or invalid percentage
+Actual result: Not run yet
+Status: PENDING
+
+TEST 08: Delete an existing record
+Actual result: Not run yet
+Status: PENDING
+
+TEST 09: Complete the main transaction
+Actual result: Not run yet
+Status: PENDING
+
+TEST 10: View the summary report
+Actual result: Not run yet
+Status: PENDING
+
+TEST 11: Restart and verify persistence
+Actual result: Not run yet
+Status: PENDING
+
+TEST 12: Enter an invalid menu option
+Actual result: Not run yet
+Status: PENDING
+
+TEST 13: Enter text where a number is expected
+Actual result: Not run yet
+Status: PENDING
+
+TEST 14: Verify the correct data file is updated
+Actual result: Not run yet
+Status: PENDING
+
+TEST 15: Save and exit cleanly
+Actual result: Not run yet
+Status: PENDING

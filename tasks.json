@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build C++ Project",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-std=c++11",
+        "-Wall",
+        "-Wextra",
+        "${workspaceFolder}/Source_Code/main.cpp",
+        "${workspaceFolder}/Source_Code/Course.cpp",
+        "${workspaceFolder}/Source_Code/CourseSystem.cpp",
+        "${workspaceFolder}/Source_Code/Enrollment.cpp",
+        "${workspaceFolder}/Source_Code/FileManager.cpp",
+        "${workspaceFolder}/Source_Code/Instructor.cpp",
+        "",
+        "${workspaceFolder}/Source_Code/Student.cpp",
+        "-o",
+        "Project.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    }
+  ]
+}
